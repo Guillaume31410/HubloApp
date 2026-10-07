@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Icônes sombres sur la barre de navigation claire (API 27+). -->
+    <style name="Theme.Hublot" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/accent</item>
+        <item name="android:colorPrimaryDark">@color/fond</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/fond</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:alertDialogTheme">@style/Theme.Hublot.Dialogue</item>
+        <item name="android:timePickerDialogTheme">@style/Theme.Hublot.Dialogue</item>
+    </style>
+</resources>

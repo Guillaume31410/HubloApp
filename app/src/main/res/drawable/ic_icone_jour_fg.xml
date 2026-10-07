@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Premier plan de l'icône (jour). Contenu dans la zone sûre de 66 dp centrée. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Bandeau de commande -->
+    <path
+        android:pathData="M37,42L71,42"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.35"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <!-- Croissant de lune : heures creuses -->
+    <path
+        android:fillColor="#FFD27A"
+        android:pathData="M41,30.5a4.5,4.5 0,1 0,4.2 6.3a3.5,3.5 0,1 1,-4.2 -6.3z" />
+    <path
+        android:fillAlpha="0.6"
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,34.2a1.8,1.8 0,1 1,0 3.6a1.8,1.8 0,1 1,0 -3.6zM70,34.2a1.8,1.8 0,1 1,0 3.6a1.8,1.8 0,1 1,0 -3.6z" />
+    <!-- Hublot -->
+    <path
+        android:fillColor="@color/icone_fond_jour"
+        android:pathData="M54,45a16,16 0,1 1,0 32a16,16 0,1 1,0 -32z"
+        android:strokeWidth="4.5"
+        android:strokeColor="#FFFFFF" />
+    <!-- Eau -->
+    <path
+        android:fillColor="#8CCFFF"
+        android:pathData="M40.85,65c2.9,-2 5.8,-2 8.77,0s5.8,2 8.77,0s5.8,-2 8.76,0A13.75,13.75 0,0 1,40.85 65z" />
+    <!-- Aiguilles -->
+    <path
+        android:pathData="M54,61L54,51M54,61L61,61"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,59a2,2 0,1 1,0 4a2,2 0,1 1,0 -4z" />
+</vector>

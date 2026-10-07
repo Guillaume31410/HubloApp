@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hublot</string>
+
+    <!-- Accueil -->
+    <string name="titre_accueil">Départ différé</string>
+    <string name="il_est">Il est %1$s</string>
+    <string name="il_est_decompte">Il est %1$s · décompte en cours</string>
+    <string name="parametres">Paramètres</string>
+    <string name="fin_souhaitee">Fin souhaitée</string>
+    <string name="duree_cycle">Durée du cycle</string>
+    <string name="au_plus_juste">Au plus juste</string>
+    <string name="heures_creuses">Heures creuses</string>
+    <string name="regler_sur">Régler la machine sur</string>
+    <string name="machine_reglee_sur">Machine réglée sur</string>
+    <string name="inatteignable">Heure souhaitée inatteignable</string>
+    <string name="calcul_impossible">Calcul impossible</string>
+    <string name="info_changement_heure">Changement d\'heure d\'ici la fin : le délai en tient compte.</string>
+    <string name="puce_fin">Fin %1$s</string>
+    <string name="j_ai_lance">J\'ai lancé la machine</string>
+    <string name="arreter_decompte">Arrêter le décompte</string>
+    <string name="arreter_decompte_titre">Arrêter le décompte ?</string>
+    <string name="arreter_decompte_message">Les rappels programmés seront annulés et l\'accueil sera déverrouillé. Pensez aussi à annuler le départ différé sur la machine si besoin.</string>
+    <string name="arreter">Arrêter</string>
+    <string name="duree_nulle">La durée du cycle ne peut pas être nulle.</string>
+    <string name="heures">Heures</string>
+    <string name="minutes">Minutes</string>
+    <string name="h">h</string>
+    <string name="titre_changement_heure">Changement d\'heure</string>
+
+    <!-- Autorisations -->
+    <string name="notifs_refusees_titre">Notifications désactivées</string>
+    <string name="notifs_refusees_message">Sans l\'autorisation d\'afficher des notifications, Hublot ne pourra pas vous prévenir avant la fin du lavage. Le décompte fonctionne quand même.\n\nPour l\'activer : Réglages › Applications › Hublot › Notifications.</string>
+    <string name="alarmes_exactes_titre">Rappels à l\'heure exacte</string>
+    <string name="alarmes_exactes_message">Les alarmes exactes sont désactivées pour Hublot : les rappels pourront arriver avec quelques minutes de retard. Pour les activer : Réglages › Applications › Hublot › Alarmes et rappels.</string>
+    <string name="ouvrir_reglages">Ouvrir les réglages</string>
+    <string name="plus_tard">Plus tard</string>
+
+    <!-- Paramètres -->
+    <string name="retour">Retour</string>
+    <string name="section_hc">Plages d\'heures creuses</string>
+    <string name="aucune_plage">Aucune plage définie.</string>
+    <string name="ajouter_plage">Ajouter une plage</string>
+    <string name="debut_hc">Début des heures creuses</string>
+    <string name="fin_hc">Fin des heures creuses</string>
+    <string name="plage_vide">Le début et la fin doivent être différents.</string>
+    <string name="supprimer_plage">Supprimer la plage %1$s</string>
+    <string name="confirmer_suppression">Supprimer la plage %1$s ?</string>
+    <string name="supprimer">Supprimer</string>
+    <string name="fusion_titre">Plages qui se chevauchent</string>
+    <string name="fusion_question">Voulez-vous fusionner les plages des heures creuses qui se chevauchent ?</string>
+    <string name="fusionner">Fusionner</string>
+    <string name="garder_separees">Garder séparées</string>
+    <string name="fusion_refusee">Plages conservées. Le calcul ne compte jamais deux fois la même minute.</string>
+    <string name="section_option_hc">Option heures creuses</string>
+    <string name="avance_max">Avance maximale</string>
+    <string name="aide_avance">La fin pourra être avancée d\'au plus cette durée par rapport à l\'heure souhaitée, pour ne pas laisser le linge humide trop longtemps.</string>
+    <string name="section_machine">Machine</string>
+    <string name="delai_max">Départ différé maximal</string>
+    <string name="moins">−</string>
+    <string name="plus">+</string>
+    <string name="diminuer">Diminuer de 30 minutes</string>
+    <string name="augmenter">Augmenter de 30 minutes</string>
+    <string name="section_notifications">Notifications</string>
+    <string name="rappel_60">Rappel 1 h avant la fin</string>
+    <string name="rappel_30">Rappel 30 min avant la fin</string>
+    <string name="rappel_10">Rappel 10 min avant la fin</string>
+    <string name="notif_fin">Notification de fin</string>
+    <string name="notifs_ok">Les notifications sont autorisées.</string>
+    <string name="notifs_bloquees">Les notifications sont bloquées : aucun rappel ne s\'affichera.</string>
+    <string name="ouvrir_reglages_notifs">Autoriser les notifications</string>
+    <string name="ouvrir_reglages_alarmes">Autoriser les alarmes exactes</string>
+    <string name="section_icone">Icône</string>
+    <string name="icone_dynamique">Icône bleu nuit pendant les heures creuses</string>
+    <string name="aide_icone">L\'icône change quand l\'application n\'est pas affichée. Sur certains téléphones, le raccourci de l\'écran d\'accueil peut se déplacer ou disparaître lors du changement : désactivez l\'option si c\'est le cas. Sans effet si les icônes thématiques d\'Android sont activées.</string>
+    <string name="icone_appliquee_en_sortant">L\'icône sera mise à jour quand vous quitterez l\'application.</string>
+</resources>

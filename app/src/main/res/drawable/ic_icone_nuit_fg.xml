@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Premier plan de l'icône (heures creuses) : bleu nuit, étoiles, voyant allumé. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M37,42L71,42"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.25"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <path
+        android:fillColor="#FFD27A"
+        android:pathData="M41,30.5a4.5,4.5 0,1 0,4.2 6.3a3.5,3.5 0,1 1,-4.2 -6.3z" />
+    <!-- Étoiles -->
+    <path
+        android:fillColor="#FFD27A"
+        android:pathData="M49,29a1,1 0,1 1,0 2a1,1 0,1 1,0 -2zM50.5,35.3a0.7,0.7 0,1 1,0 1.4a0.7,0.7 0,1 1,0 -1.4z" />
+    <path
+        android:fillAlpha="0.4"
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,34.2a1.8,1.8 0,1 1,0 3.6a1.8,1.8 0,1 1,0 -3.6z" />
+    <!-- Voyant allumé -->
+    <path
+        android:fillColor="#FFD27A"
+        android:pathData="M70,34.2a1.8,1.8 0,1 1,0 3.6a1.8,1.8 0,1 1,0 -3.6z" />
+    <path
+        android:fillColor="@color/icone_fond_nuit"
+        android:pathData="M54,45a16,16 0,1 1,0 32a16,16 0,1 1,0 -32z"
+        android:strokeWidth="4.5"
+        android:strokeColor="#E6ECF7" />
+    <path
+        android:fillColor="#4F86C9"
+        android:pathData="M40.85,65c2.9,-2 5.8,-2 8.77,0s5.8,2 8.77,0s5.8,-2 8.76,0A13.75,13.75 0,0 1,40.85 65z" />
+    <path
+        android:pathData="M54,61L54,51M54,61L61,61"
+        android:strokeWidth="3"
+        android:strokeColor="#E6ECF7"
+        android:strokeLineCap="round" />
+    <path
+        android:fillColor="#E6ECF7"
+        android:pathData="M54,59a2,2 0,1 1,0 4a2,2 0,1 1,0 -4z" />
+</vector>

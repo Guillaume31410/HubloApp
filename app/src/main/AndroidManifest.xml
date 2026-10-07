@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Rappels et notification de fin (demandée à l'exécution sur Android 13+). -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- Alarmes exactes : accordée d'office sur Android 13+ (application hors Play Store). -->
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+    <!-- Alarmes exactes sur Android 12 / 12L. -->
+    <uses-permission
+        android:name="android.permission.SCHEDULE_EXACT_ALARM"
+        android:maxSdkVersion="32" />
+    <!-- Reprogrammer les rappels après un redémarrage. -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:enableOnBackInvokedCallback="true"
+        android:icon="@mipmap/ic_launcher_jour"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hublot">
+
+        <!-- Écran d'accueil, lancé par l'un des deux alias ci-dessous. -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop" />
+
+        <!-- Icône jour (par défaut). -->
+        <activity-alias
+            android:name=".LanceurJour"
+            android:enabled="true"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher_jour"
+            android:label="@string/app_name"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- Icône nuit, activée pendant les heures creuses si l'option est cochée. -->
+        <activity-alias
+            android:name=".LanceurNuit"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher_nuit"
+            android:label="@string/app_name"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name=".ParametresActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <receiver
+            android:name=".AlarmeReceiver"
+            android:exported="false" />
+
+        <receiver
+            android:name=".DemarrageReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

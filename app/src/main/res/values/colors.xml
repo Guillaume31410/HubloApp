@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fond">#F1F1EE</color>
+    <color name="carte">#FFFFFF</color>
+    <color name="bordure">#DCDFDA</color>
+    <color name="texte">#1B2220</color>
+    <color name="texte_secondaire">#56605C</color>
+    <color name="accent">#1F5C55</color>
+    <color name="accent_presse">#174640</color>
+    <color name="desactive">#9AA6A2</color>
+    <color name="segment">#E3E5E1</color>
+    <color name="sombre">#1E2422</color>
+    <color name="sur_sombre">#E8EEEC</color>
+    <color name="sur_sombre_secondaire">#C2CCC8</color>
+    <color name="sur_sombre_accent">#7FD8C9</color>
+    <color name="frise_piste">#E3E6E2</color>
+    <color name="frise_hc">#BFE3DC</color>
+    <color name="cible">#B5612A</color>
+    <color name="danger">#B42318</color>
+    <color name="blanc">#FFFFFF</color>
+
+    <!-- Icône de l'application -->
+    <color name="icone_fond_jour">#1F5FA8</color>
+    <color name="icone_fond_nuit">#16264A</color>
+</resources>

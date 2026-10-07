@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Roue dentée simplifiée : couronne, dents et moyeu. -->
+    <path
+        android:pathData="M12,5.8a6.2,6.2 0,1 1,0 12.4a6.2,6.2 0,1 1,0 -12.4z"
+        android:strokeWidth="2"
+        android:strokeColor="#1B2220" />
+    <path
+        android:pathData="M18.20,12.00L21.00,12.00M16.38,16.38L18.36,18.36M12.00,18.20L12.00,21.00M7.62,16.38L5.64,18.36M5.80,12.00L3.00,12.00M7.62,7.62L5.64,5.64M12.00,5.80L12.00,3.00M16.38,7.62L18.36,5.64"
+        android:strokeWidth="2.6"
+        android:strokeColor="#1B2220"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M12,9.5a2.5,2.5 0,1 1,0 5a2.5,2.5 0,1 1,0 -5z"
+        android:strokeWidth="2"
+        android:strokeColor="#1B2220" />
+</vector>
